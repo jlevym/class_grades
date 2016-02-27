@@ -22,7 +22,7 @@
 	font-size: 25px;
 	padding: 10px;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .opts {
@@ -34,4 +34,12 @@
 .instruction {
 	border: 1px solid LightGrey;
 	padding: 5px;
+}
+.graph{
+	padding: 50px;
+}
+
+.heading {
+	font-size: 25px;
+	margin-bottom: 25px;
 }

@@ -39,12 +39,12 @@
 
 <template name="song_viz">
 <div class="row">
-	<div class="col-md-6">
+	<div class="  col-md-6">
 			{{> song_viz_controls}}
 			{{> song_feature_list}}
 	</div>
-	<div class="col-md-6">
-			{{> song_vizjs}}
+	<div class=" col-md-6">
+			<div class = "graph">{{> song_vizjs}}</div>
 	</div>
 </div>
 
@@ -55,7 +55,9 @@
 
 	<div class="row">
 		<div class="col-md-4">
+			
 			<a href="/" class=" top btn btn-info">Back to home page</a>
+			<h2 class="heading">Data Analysis Page</h2>
 		</div>
 	</div>
 	<div class="row">	
