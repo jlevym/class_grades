@@ -1,0 +1,25 @@
+{
+	"metadata" : {
+		"tags" : {
+			"file_name" : "Barry",
+			"student" : ["Barry"],
+			"age" : ["16"],
+			"index":["2"],
+			"gender" : ["Male"]
+		}
+	},
+
+	"rhythm"  : {
+		"maths" : 10,
+		"physics" : 9,
+		"history" : 5,
+		"english" : 7,
+		"art" : 6,
+		"latin" : 8,
+		"geograpy" :9,
+		"sociology" : 6,
+		"computers" :7,
+		"sport" : 3
+
+	}
+}

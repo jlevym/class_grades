@@ -1,0 +1,25 @@
+{
+	"metadata" : {
+		"tags" : {
+			"file_name" : "Ella",
+			"student" : ["Ella"],
+			"age" : ["13"],
+			"index":["5"],
+			"gender" : ["female"]
+		}
+	},
+
+	"rhythm"  : {
+		"maths" : 7,
+		"physics" : 10,
+		"history" : 8,
+		"english" : 7,
+		"art" : 9,
+		"latin" : 5,
+		"geograpy" :7,
+		"sociology" : 8,
+		"computers" :10,
+		"sport" : 8
+
+	}
+}

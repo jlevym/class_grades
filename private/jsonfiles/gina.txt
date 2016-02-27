@@ -1,0 +1,25 @@
+{
+	"metadata" : {
+		"tags" : {
+			"file_name" : "Gina",
+			"student" : ["Gina"],
+			"age" : ["18"],
+			"index":["7"],
+			"gender" : ["female"]
+		}
+	},
+
+	"rhythm"  : {
+		"maths" : 9,
+		"physics" : 4,
+		"history" : 8,
+		"english" : 7,
+		"art" : 7,
+		"latin" : 5,
+		"geograpy" :7,
+		"sociology" : 10,
+		"computers" :10,
+		"sport" : 10
+
+	}
+}

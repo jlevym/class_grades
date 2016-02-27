@@ -1,0 +1,25 @@
+{
+	"metadata" : {
+		"tags" : {
+			"file_name" : "Irene",
+			"student" : ["Irene"],
+			"age" : ["114"],
+			"index":["9"],
+			"gender" : ["female"]
+		}
+	},
+
+	"rhythm"  : {
+		"maths" : 9,
+		"physics" : 2,
+		"history" : 8,
+		"english" : 7,
+		"art" : 10,
+		"latin" : 5,
+		"geograpy" :7,
+		"sociology" :9,
+		"computers" :3,
+		"sport" : 5
+
+	}
+}

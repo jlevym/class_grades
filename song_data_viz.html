@@ -1,0 +1,79 @@
+<head>
+  <title>song_data_viz</title>
+  <script src="vis.js"></script>
+</head>
+
+<body>
+
+</body>
+
+<template name="ApplicationLayout">
+  {{> yield "navbar"}}
+  {{> yield "main"}}
+  
+</template>
+
+<template name="welcome">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome to the Student Grade Analyis App </h1>
+      <a href="/vis" class="btn btn-info">ENTER</a>
+    </div>
+  </div>
+</template> 
+
+
+
+<template name="back_home">
+	<div class="container">
+		<a href="/" class="btn btn-info">Back to home page</a>
+	</div>
+</template>
+
+<template name="song_viz">
+<div class="row">
+	<div class="col-md-6">
+			{{> song_viz_controls}}
+			{{> song_feature_list}}
+	</div>
+	<div class="col-md-6">
+			{{> song_vizjs}}
+	</div>
+</div>
+
+</template>
+
+<template name="song_viz_controls">
+	<div class="container">
+		<form>
+			<!-- list of available single features -->
+			<p>Please choose the subject from the list below:</p>
+			<br/>
+			<select class="js-select-single-feature">
+				{{#each get_feature_names "single"}}
+			<option value="{{name}}">{{name}}</option>
+				{{/each}}
+			</select>
+			<button class="btn js-show-blobs">blobs</button>
+			<button class="btn js-show-timeline">bargraph</button>
+			<button class="btn js-show-scatter">scatter</button>
+			<button class="btn js-show-graph">graph</button>
+			<button class="btn js-show-data">data</button>
+		
+		</form>
+	</div>
+</template>	
+
+
+<template name="song_feature_list">
+	<ul>
+	{{#each get_all_feature_values}}
+		<li>{{student}}  ; final grade = {{value}}</li>
+	{{/each}}
+	</ul>
+</template>
+
+<template name="song_vizjs">
+	<div id="visjs"></div>
+</template>
+
