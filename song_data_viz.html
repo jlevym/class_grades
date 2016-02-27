@@ -33,7 +33,7 @@
 
 <template name="back_home">
 	<div class="container">
-		<a href="/" class="btn btn-info">Back to home page</a>
+		
 	</div>
 </template>
 
@@ -52,11 +52,23 @@
 
 <template name="song_viz_controls">
 	<div class="container">
+
+	<div class="row">
+		<div class="col-md-4">
+			<a href="/" class=" top btn btn-info">Back to home page</a>
+		</div>
+	</div>
+	<div class="row">	
+		<div class="col-md-4">
+			<span class="instruction">choose from the list :</span>
+			<br/>
+		</div>		
+	</div>	
+
 		<form>
 			<!-- list of available single features -->
-			<p>Please choose the subject from the list below:</p>
-			<br/>
-			<select class="js-select-single-feature">
+			
+			<select class=" opts js-select-single-feature">
 				{{#each get_feature_names "single"}}
 			<option value="{{name}}">{{name}}</option>
 				{{/each}}
@@ -68,7 +80,7 @@
 			<button class="btn js-show-data">data</button>
 		
 		</form>
-	</div>
+	</div> <!-- /container-->
 </template>	
 
 

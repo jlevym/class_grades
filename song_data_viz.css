@@ -10,3 +10,28 @@
 .vis-label:hover{
 	fill-opacity:1;
 }
+
+.label{
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.top {
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.opts {
+	font-size: 25px;
+	margin-top: 15px;
+	font-family: serif;
+	position:relative;top:5px;
+}
+.instruction {
+	border: 1px solid LightGrey;
+	padding: 5px;
+}
